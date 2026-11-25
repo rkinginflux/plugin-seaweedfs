@@ -1,0 +1,162 @@
+{
+  "Version": "synthetic SeaweedFS 4.55-shaped fixture",
+  "Volumes": {
+    "Max": 20,
+    "Free": 13,
+    "DataCenters": {
+      "DefaultDataCenter": {
+        "DefaultRack": {
+          "volume-a.example.test:8080": [
+            {
+              "Id": 1,
+              "DiskId": 0,
+              "Collection": "",
+              "DiskType": "",
+              "RemoteStorageName": "",
+              "ReplicaPlacement": {},
+              "Ttl": {
+                "Count": 0,
+                "Unit": 0
+              },
+              "Size": 1024,
+              "DeletedByteCount": 0,
+              "ModifiedAtSecond": 0,
+              "CompactRevision": 0,
+              "FileCount": 1,
+              "DeleteCount": 0,
+              "Version": 3,
+              "ReadOnly": false,
+              "ReadOnlyCanDelete": false
+            },
+            {
+              "Id": 2,
+              "DiskId": 0,
+              "Collection": "",
+              "DiskType": "",
+              "RemoteStorageName": "",
+              "ReplicaPlacement": {},
+              "Ttl": {
+                "Count": 0,
+                "Unit": 0
+              },
+              "Size": 1024,
+              "DeletedByteCount": 0,
+              "ModifiedAtSecond": 0,
+              "CompactRevision": 0,
+              "FileCount": 1,
+              "DeleteCount": 0,
+              "Version": 3,
+              "ReadOnly": false,
+              "ReadOnlyCanDelete": false
+            },
+            {
+              "Id": 3,
+              "DiskId": 0,
+              "Collection": "",
+              "DiskType": "",
+              "RemoteStorageName": "",
+              "ReplicaPlacement": {},
+              "Ttl": {
+                "Count": 0,
+                "Unit": 0
+              },
+              "Size": 1024,
+              "DeletedByteCount": 0,
+              "ModifiedAtSecond": 0,
+              "CompactRevision": 0,
+              "FileCount": 1,
+              "DeleteCount": 0,
+              "Version": 3,
+              "ReadOnly": false,
+              "ReadOnlyCanDelete": false
+            },
+            {
+              "Id": 5,
+              "DiskId": 0,
+              "Collection": "",
+              "DiskType": "",
+              "RemoteStorageName": "",
+              "ReplicaPlacement": {},
+              "Ttl": {
+                "Count": 0,
+                "Unit": 0
+              },
+              "Size": 1024,
+              "DeletedByteCount": 0,
+              "ModifiedAtSecond": 0,
+              "CompactRevision": 0,
+              "FileCount": 1,
+              "DeleteCount": 0,
+              "Version": 3,
+              "ReadOnly": false,
+              "ReadOnlyCanDelete": false
+            },
+            {
+              "Id": 6,
+              "DiskId": 0,
+              "Collection": "",
+              "DiskType": "",
+              "RemoteStorageName": "",
+              "ReplicaPlacement": {},
+              "Ttl": {
+                "Count": 0,
+                "Unit": 0
+              },
+              "Size": 1024,
+              "DeletedByteCount": 0,
+              "ModifiedAtSecond": 0,
+              "CompactRevision": 0,
+              "FileCount": 1,
+              "DeleteCount": 0,
+              "Version": 3,
+              "ReadOnly": false,
+              "ReadOnlyCanDelete": false
+            },
+            {
+              "Id": 8,
+              "DiskId": 0,
+              "Collection": "example",
+              "DiskType": "",
+              "RemoteStorageName": "",
+              "ReplicaPlacement": {},
+              "Ttl": {
+                "Count": 0,
+                "Unit": 0
+              },
+              "Size": 1024,
+              "DeletedByteCount": 0,
+              "ModifiedAtSecond": 0,
+              "CompactRevision": 0,
+              "FileCount": 1,
+              "DeleteCount": 0,
+              "Version": 3,
+              "ReadOnly": false,
+              "ReadOnlyCanDelete": false
+            },
+            {
+              "Id": 9,
+              "DiskId": 0,
+              "Collection": "example",
+              "DiskType": "",
+              "RemoteStorageName": "",
+              "ReplicaPlacement": {},
+              "Ttl": {
+                "Count": 0,
+                "Unit": 0
+              },
+              "Size": 1024,
+              "DeletedByteCount": 0,
+              "ModifiedAtSecond": 0,
+              "CompactRevision": 0,
+              "FileCount": 1,
+              "DeleteCount": 0,
+              "Version": 3,
+              "ReadOnly": false,
+              "ReadOnlyCanDelete": false
+            }
+          ]
+        }
+      }
+    }
+  }
+}
