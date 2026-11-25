@@ -19,3 +19,12 @@ jobs:
         run: python -W error::ResourceWarning -m unittest discover -s tests -v
       - name: Compile plugin
         run: python -m py_compile seaweedfs_inventory.py
+  documentation:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Lint documentation
+        run: npx --yes markdownlint-cli2@0.24.0 "**/*.md"

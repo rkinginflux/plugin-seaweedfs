@@ -260,11 +260,19 @@ def read_config(args):
     return cluster, url, timeout, max_bytes, max_records, args.get('ca_file'), token
 
 
-def process_scheduled_call(influxdb3_local, call_time, args=None):
+def process_scheduled_call(influxdb3_local, call_time,
+                           args: dict[str, str] | None = None) -> None:
     """Poll one master; buffer validated records followed by a snapshot manifest.
 
-    call_time is intentionally unused: some DB3 builds supply naive local time.
     A manifest is not a distributed commit; readers must reconcile its row count.
+
+    Args:
+        influxdb3_local: Engine context with logging and buffered-write methods.
+        call_time: Unused schedule time; some builds supply naive local time.
+        args: Required cluster and master_url plus optional collection settings.
+
+    Raises:
+        ValueError: Configuration is missing or invalid. Check the README table.
     """
     cluster, url, timeout, max_bytes, max_records, ca_file, token = read_config(args)
     timestamp = time.time_ns()
